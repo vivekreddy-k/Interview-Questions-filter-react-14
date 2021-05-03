@@ -1,0 +1,111 @@
+/* Write you CSS here */
+.questions-container-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+  background-color: transparent;
+  box-shadow: 0px 4px 16px rgba(126, 133, 142, 0.16);
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .questions-container-item {
+    width: 80%;
+  }
+}
+
+.filters-section {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 350px) {
+  .filters-section {
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filters-section {
+    width: 30%;
+  }
+}
+
+.question-text {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .question-text {
+    font-size: 22px;
+  }
+}
+
+.answer-button {
+  min-width: 80px;
+  border-radius: 7px;
+  padding: 5px 12px 5px 12px;
+  background-color: transparent;
+  border: 1px solid #9aa5b1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px -1px #9aa5b1;
+}
+
+.answer-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  color: #475569;
+}
+
+.filter-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 16px 8px 16px;
+  border-radius: 25px;
+  text-align: center;
+  margin-right: 30px;
+}
+@media screen and (max-width: 350px) {
+  .filter-text {
+    margin-right: 10px;
+  }
+}
+.easy-level {
+  background-color: #16a34a16;
+  color: #16a34a;
+}
+
+.medium-level {
+  color: #d97706;
+  background-color: #d9770616;
+}
+
+.hard-level {
+  color: #dc2626;
+  background-color: #dc262616;
+}
+
+.language-html {
+  color: #0284c7;
+  background-color: #0284c716;
+}
+.language-css {
+  color: #9333ea;
+  background-color: #9333ea16;
+}
+
+.language-js {
+  color: #db2777;
+  background-color: #db277716;
+}
