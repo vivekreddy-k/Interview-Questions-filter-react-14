@@ -1,4 +1,4 @@
-## LIVE DEMO :- <a href="https://romantic-euler-d0a703.netlify.app/">Stop Watch</a>
+## LIVE DEMO :- <a href="https://romantic-euler-d0a703.netlify.app/">Interview Questions</a>
 In this assignment, let's build an **Interview Questions App** 
 
 ### Refer to image below:
